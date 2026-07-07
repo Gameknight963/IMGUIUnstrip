@@ -35,11 +35,11 @@ namespace IMGUIUnstrip
                 try
                 {
                     _detours.Add(new Detour(from, to));
-                    MelonLogger.Msg($"[IMGUIUnstrip] Patched {targetType.Name}.{to.Name}");
+                    MelonLogger.Msg($"Patched {targetType.Name}.{to.Name}");
                 }
                 catch (Exception e)
                 {
-                    MelonLogger.Warning($"[IMGUIUnstrip] Failed to patch {targetType.Name}.{to.Name}: {e.Message}");
+                    MelonLogger.Warning($"Failed to patch {targetType.Name}.{to.Name}: {e.Message}");
                 }
             }
         }
