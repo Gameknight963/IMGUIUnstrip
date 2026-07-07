@@ -17,11 +17,6 @@ namespace IMGUIUnstrip
             PatchType(typeof(Replacements.GUIStateObjects), typeof(UnityEngine.GUIStateObjects));
         }
 
-        public override void OnInitializeMelon()
-        {
-            LoggerInstance.Msg("Initialized.");
-        }
-
         private static readonly List<Detour> _detours = new();
 
         private static void PatchType(Type replacementType, Type targetType)
