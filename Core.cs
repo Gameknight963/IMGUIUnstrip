@@ -2,7 +2,7 @@
 using MelonLoader;
 using System.Reflection;
 
-[assembly: MelonInfo(typeof(IMGUIUnstrip.Core), "IMGUI_Unstrip", "1.0.0", "gameknight963", null)]
+[assembly: MelonInfo(typeof(IMGUIUnstrip.Core), "IMGUIUnstrip", "1.0.0", "gameknight963", null)]
 [assembly: MelonAuthorColor(255, 86, 65, 157)]
 
 namespace IMGUIUnstrip
