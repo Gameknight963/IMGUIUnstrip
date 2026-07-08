@@ -32,4 +32,4 @@ Put the latest release in `Plugins/`.
 
 ## Building
 
-Clone this repo and build it with Visual Studio or `dotnet build`.
+Clone this repo, and adjust `GamePath` in `Directory.Build.props` to match the path of your game. Then build it with Visual Studio or `dotnet build`.
